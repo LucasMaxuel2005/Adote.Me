@@ -24,7 +24,7 @@ O Adote.me é um aplicativo móvel desenvolvido em React Native com Expo, destin
 
 ### Navegação Principal
 - **Tela Inicial (Home)**: Exibe o logo e botões para "Conferir Animais" (leva à lista sem login) e "Login".
-![alt text](1.png)
+<img width="367" height="832" alt="Image" src="https://github.com/user-attachments/assets/e3e9b80e-6b02-4e4e-a50d-436c75328f77" />
 - **Lista de Animais (AnimalList)**: Mostra animais disponíveis com opções para adotar ou reservar. Requer login para ações.
 ![alt text](2.png)
 - **Login**: Use email 'aluno@univag.com' e senha '123456' para logar como usuário de exemplo. Ao realiza-lo, retorna a tela de Animais Disponíveis.
@@ -44,3 +44,4 @@ O Adote.me é um aplicativo móvel desenvolvido em React Native com Expo, destin
 - **Adotar**: Clique em "Adotar" em um animal; confirme na tela de adoção. O animal fica indisponível.
 - **Reservar**: Clique em "Reservar"; preencha o formulário na tela de reserva.
 - **Gerenciar Conta**: Após login, acesse a conta para ver dados pessoais.
+
