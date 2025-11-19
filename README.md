@@ -23,34 +23,43 @@ O Adote.me é um aplicativo móvel desenvolvido em React Native com Expo, destin
 ## Como Utilizar
 
 ### Navegação Principal
-- **Tela Inicial (Home)**: Exibe o logo e botões para "Conferir Animais" (leva à lista sem login) e "Login".
+- **Tela Inicial (Home)**: Tela de abertura do aplicativo, onde exibe a logo do app e botões para "Conferir Animais" (leva à lista sem login) e "Login":
   
 <img width="367" height="832" alt="Image" src="https://github.com/user-attachments/assets/e3e9b80e-6b02-4e4e-a50d-436c75328f77" />
 
 
-- **Lista de Animais (AnimalList)**: Mostra animais disponíveis com opções para adotar ou reservar. Requer login para ações.
+- **Lista de Animais (AnimalList)**: Ao clicar em conferir Animais na tela anterior, aparece a lista de animais que estão disponíveis para adoção em diversas casas de adoção que possúem parceria com o app:
+
   
 <img width="368" height="827" alt="Image" src="https://github.com/user-attachments/assets/12b75923-c366-4daa-9566-73ff96603d39" />
 
-- **Login**: Use email 'aluno@univag.com' e senha '123456' para logar como usuário de exemplo. Ao realiza-lo, retorna a tela de Animais Disponíveis.
+
+- **Login**: Use email 'aluno@univag.com' e senha '123456' para logar como usuário de exemplo, pois não é possível prosseguir para a adoção caso não tenha efetuado o login. Após inserir os dados, o usuário é redirecionado para a Lista de animais Logado em se usuário:
+
   
 <img width="361" height="835" alt="Image" src="https://github.com/user-attachments/assets/4cc60374-3a8c-4710-8648-054bed2311b1" />
 
 <img width="362" height="829" alt="Image" src="https://github.com/user-attachments/assets/17589f1a-231c-42f9-a159-96e44d4207d7" />
 
-- **Adoção (AdoptionScreen)**: Confirma a adoção de um animal selecionado.
+
+- **Adoção (AdoptionScreen)**: Tela onde mostra os Dados do animal que foi selecionado, com Dados importantes do Animal:
+
 
 <img width="369" height="838" alt="Image" src="https://github.com/user-attachments/assets/1fa69806-45d9-45f5-9205-124e5bd637df" />
 
-- **Reserva (ReservationScreen)**: Permite reservar um animal preenchendo formulário com dados pessoais. Após a reserva aparece uma mensagem para o usuário confirmando a reserva e redireciona o mesmo para a tela de Animais Disponíveis.
 
-<img width="366" height="834" alt="Image" src="https://github.com/user-attachments/assets/8ea87f9e-7530-41a5-a03d-a1f9589e5329" /> 
+-**Reserva (ReservationScreen)**: Após clicar em solicitar reserva, somos redirecionados para a tela de Reserva, onde o usuário insere seus Dados para que possamos repassar para a casa de adoção responsável pelo animal:
+
 
 <img width="371" height="830" alt="Image" src="https://github.com/user-attachments/assets/5b36258b-9f87-43a6-b103-9f8fa202c50e" />
 
+<img width="366" height="834" alt="Image" src="https://github.com/user-attachments/assets/8ea87f9e-7530-41a5-a03d-a1f9589e5329" /> 
+
 <img width="374" height="835" alt="Image" src="https://github.com/user-attachments/assets/2ca0246e-4239-4807-87b5-01719fc20d2b" />
 
-- **Conta (AccountScreen)**: Exibe informações do usuário logado.
+
+- **Conta (AccountScreen)**: Também é possível visualizar os seus dados cadastrados no App na tela de Dados do usuário. Após efetuar o login, um botão aparece no canto inferior direito na tela de Lista de animais que da acesso a esta tela.
+
 
 <img width="368" height="832" alt="Image" src="https://github.com/user-attachments/assets/2abebef6-872c-4da3-ad4c-6de01b944864" />
 
@@ -60,6 +69,7 @@ O Adote.me é um aplicativo móvel desenvolvido em React Native com Expo, destin
 - **Adotar**: Clique em "Adotar" em um animal; confirme na tela de adoção. O animal fica indisponível.
 - **Reservar**: Clique em "Reservar"; preencha o formulário na tela de reserva.
 - **Gerenciar Conta**: Após login, acesse a conta para ver dados pessoais.
+
 
 
 
